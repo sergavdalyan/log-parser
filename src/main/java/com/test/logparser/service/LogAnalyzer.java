@@ -78,6 +78,7 @@ public class LogAnalyzer {
 
         LOGGER.debug("Found {} IPs, by parameters from {} to {} threshold {}", logEntityList.size(), startDate, endDate, threshold);
 
+
         return logEntityList;
     }
 
