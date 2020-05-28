@@ -57,7 +57,6 @@ public class LogReaderService {
                     entities = new ArrayList<>();
                 }
             }
-
             logger.debug("Finished: readAndPersistLogs");
         } catch (Exception e) {
             throw new RuntimeException("Failed to read file ", e);
